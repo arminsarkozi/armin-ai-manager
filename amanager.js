@@ -3,10 +3,12 @@ function language(thing = String) {
     if (thing != "no-result") {
         if (selected == 1) {
             console.log("Setted: hungarian");
+            $("html").attr("lang", "hu");
             /* Hungarian */
             return "hu";
         } else {
             console.log("Setted: english");
+            $("html").attr("lang", "en-US");
             return "en-US";
         }
     } else {
