@@ -1,0 +1,92 @@
+/* ==== GENERAL STYLES ==== */
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans", "Noto Sans Display", Arial, sans-serif;
+}
+
+input {
+    border: 1.1px solid rgb(100, 99, 99);
+    outline: none;
+}
+
+button {
+    background-color: burlywood;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input, button {
+    padding: 8px;
+}
+
+select {
+    border: .7px solid black;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+input, button, select {
+    font-size: .89rem;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 10px;
+}
+
+/* IDs */
+
+#center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#languages-divison {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* CLASSES */
+
+.question {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+.answer {
+    background-color: orange;
+    color: black;
+}
+
+.question, .answer {
+    padding: 8px;
+    margin-bottom: 4px;
+}
