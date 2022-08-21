@@ -201,7 +201,7 @@ const english = {
     3: {
         query: "What is your favourite color?",
         keywords: ["what is your favourite color", "what's your favourite color", "your favourite color", "what is your favourite colour", "what's your favourite colour", "your favorite colour"],
-        answer: "My favourite color is blue. The cornflower blue. It is very good. Tip: look your question's background &#128515;"
+        answer: "My favourite color is blue. The cornflower blue. It is very good. Tip: look your question's background 😃"
     },
     4: {
         query: "What is your favourite animal?",
@@ -211,7 +211,7 @@ const english = {
     5: {
         query: "What is your favourite book?",
         keywords: ["what is your favourite book", "what's your favourite book", "what are your favourite books", "your favourite book", "favourite book of you", "favourite books of you"],
-        answer: "Harry Potter, maybe William Wenton, and many mathematics book &#128570;. I like matematics."
+        answer: "Harry Potter, maybe William Wenton, and many mathematics book 😺. I like mathematics."
     },
     6: {
         query: "Do you have a bunny?",
@@ -231,7 +231,7 @@ const english = {
     9: {
         query: "Can you say 'hello'?",
         keywords: ["can you say hello", "can you greeting me", "can you greet me", "can you greeting"],
-        answer: "Yes, I can. I say 'hello'. Hello! Well, you saw that I saw 'hello'. Hihihi!"
+        answer: "Yes, I can. I say 'hello'. Hello! Well, you said that I said 'hello'. Hihihi!"
     },
     10: {
         query: "Open Google Search",
