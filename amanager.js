@@ -226,7 +226,7 @@ const english = {
     8: {
         query: "Can you program?",
         keywords: ["can you program", "do you can program", "are you programmer"],
-        answer: "I can program, I can in JavaScript, jQuery, Java, HTML, CSS, C++ and I learned SEO, but maybe I am not programmer yet, because I am child."
+        answer: "I can program, I can in JavaScript, jQuery, Java, HTML, CSS, C++ and I learned SEO, but maybe I am not programmer yet, because I am a child."
     },
     9: {
         query: "Can you say 'hello'?",
